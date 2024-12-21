@@ -1,0 +1,11 @@
+.round-image {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.round-image:hover {
+    transform: scale(1.1) !important; /* Slightly enlarge the image */
+}
+
+.round-image:active {
+    transform: scale(0.95)!important;
+}

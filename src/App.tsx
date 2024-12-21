@@ -1,26 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import T2Speech from "./pages/T2Speech";
+import AxiosConfig from "./AxiosConfig";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    AxiosConfig()
+    return (
+        <div className="App">
+            <T2Speech></T2Speech>
+        </div>
+    );
 }
 
 export default App;

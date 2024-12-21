@@ -1,0 +1,24 @@
+.audio-recorder {
+    box-shadow: 0 2px 5px rgba(190, 190, 190, 0) !important;
+    /*background: linear-gradient(90deg, rgb(200, 166, 248) 30%, rgb(235, 212, 246) 100%);*/
+    background: transparent;
+    border: 1px dashed transparent;
+}
+
+.audio-recorder:hover {
+    border: 1px dashed transparent;
+}
+
+.audio-recorder img {
+    height: 30px;
+}
+
+.audio-container {
+    border: 1px dashed #d9d9d9;
+    border-radius: 8px;
+    background: rgba(57, 50, 90, 0.02);
+}
+
+.audio-container:hover {
+    border: 1px dashed #9254de;
+}
